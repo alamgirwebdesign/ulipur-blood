@@ -18,7 +18,7 @@ export default function App() {
       </Routes>
 
       <footer>
-        © ২০২৫ উলিপুর রক্তদান | ❤ তৈরি করেছেন <span>উলিপুর উপজেলাবাসী</span>
+        © ২০২৬ উলিপুর রক্তদান | ❤ তৈরি করেছেন <span><a href='https://www.facebook.com/alamgir.rangpur'>Alamgir Hossain</a></span>
       </footer>
 
       <Toast toast={toast} />
