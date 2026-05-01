@@ -17,12 +17,6 @@ export default function Navbar({ adminLoggedIn }) {
         <button className={isHome ? 'active' : ''} onClick={() => navigate('/')}>
           হোম
         </button>
-        <button
-          className={isAdmin ? 'active' : ''}
-          onClick={() => navigate(adminLoggedIn ? '/admin' : '/admin-login')}
-        >
-          ⚙ অ্যাডমিন
-        </button>
       </div>
     </nav>
   )
